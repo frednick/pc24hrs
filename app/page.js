@@ -90,7 +90,7 @@ export default function Page() {
         <div className="max-w-2xl">
           <p className="text-sm font-extrabold uppercase tracking-[0.18em] text-[#0066CC]">What we do</p>
           <h2 className="mt-3 text-3xl font-black tracking-tight text-[#0A2540] sm:text-4xl">Technology support for everyday business.</h2>
-          <p className="mt-4 leading-7 text-slate-600">You don't need a full-time IT department to have dependable technology support. PC24hrs gives small teams a practical remote option.</p>
+          <p className="mt-4 leading-7 text-slate-600">You do not need a full-time IT department to have dependable technology support. PC24hrs gives small teams a practical remote option.</p>
         </div>
         <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {services.map((service) => (
@@ -143,8 +143,8 @@ export default function Page() {
         <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[.8fr_1.2fr] lg:items-center">
           <div>
             <p className="text-sm font-extrabold uppercase tracking-[0.18em] text-blue-300">Start here</p>
-            <h2 className="mt-3 text-3xl font-black tracking-tight text-white sm:text-4xl">Let's solve your technology problem.</h2>
-            <p className="mt-4 max-w-lg leading-7 text-blue-100">Tell us what your business needs. We'll review it and get back to you with the best next step.</p>
+            <h2 className="mt-3 text-3xl font-black tracking-tight text-white sm:text-4xl">Let us solve your technology problem.</h2>
+            <p className="mt-4 max-w-lg leading-7 text-blue-100">Tell us what your business needs. We will review it and get back to you with the best next step.</p>
             <div className="mt-7 space-y-3 text-sm text-blue-100">
               <div>✓ Free 15-minute initial assessment</div>
               <div>✓ Remote support for small businesses</div>
@@ -160,7 +160,7 @@ export default function Page() {
             </div>
             <label className="mt-4 block text-sm font-bold text-slate-700">What can we help with?<textarea required rows={4} className="mt-2 w-full resize-none rounded-xl border border-slate-200 px-4 py-3 font-normal outline-none transition focus:border-[#0066CC] focus:ring-4 focus:ring-blue-50" placeholder="Tell us briefly about the problem or service you need." /></label>
             <button type="submit" className="mt-5 w-full rounded-xl bg-[#0066CC] px-5 py-3.5 text-sm font-extrabold text-white transition hover:bg-[#0055aa]">Request my free technology check</button>
-            <p className="mt-3 text-center text-xs text-slate-500">We'll use your details only to respond to your request.</p>
+            <p className="mt-3 text-center text-xs text-slate-500">We will use your details only to respond to your request.</p>
           </form>
         </div>
       </section>
