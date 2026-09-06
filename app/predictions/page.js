@@ -69,8 +69,8 @@ export default function PredictionsPage() {
   return (
     <main className="predictor-shell">
       <header className="predictor-header">
-        <a className="brand" href="/">PC<span>24</span>hrs <small>SPORTS</small></a>
-        <nav><a className="active" href="/predictions">Predictions</a><a href="#matches">Weekend Matches</a><a href="#method">How it works</a></nav>
+        <a className="brand" href="/predictions" aria-label="Football Predictor home">Football <span>Predictor</span></a>
+        <nav><a className="active" href="#matches">Predictions</a><a href="#matches">Weekend Matches</a><a href="#method">How it works</a></nav>
         <div className="header-pill">27 PICKS <b>✓</b></div>
       </header>
 
@@ -78,7 +78,7 @@ export default function PredictionsPage() {
         <div className="hero-copy">
           <div className="eyebrow">WEEKEND FOOTBALL PREDICTOR</div>
           <h1>Smarter picks.<br /><span>Clearer weekends.</span></h1>
-          <p>A clean prediction dashboard built from the match and pick data you supplied. Review markets, odds, results and weekend selections in one place.</p>
+          <p>A clean football prediction dashboard built from the match and pick data supplied for this weekend. Review markets, odds, results and selections in one place.</p>
           <div className="hero-actions"><a href="#matches" className="primary-btn">View predictions ↓</a><span className="disclaimer">For analysis & entertainment only.</span></div>
         </div>
         <div className="hero-card">
@@ -109,9 +109,9 @@ export default function PredictionsPage() {
         </table>{filtered.length === 0 && <div className="empty">No matches found. Try another club, league or market.</div>}</div>
       </section>
 
-      <section id="method" className="method"><div><div className="eyebrow">THE APPROACH</div><h2>Prediction data, not promises.</h2></div><p>This first version does not invent live fixtures or pretend to know future results. It organizes the 27 supplied selections into a reusable weekend prediction system. Future versions can add live fixtures, team form, injuries and an automated prediction model.</p></section>
+      <section id="method" className="method"><div><div className="eyebrow">THE APPROACH</div><h2>Prediction data, not promises.</h2></div><p>This version does not invent live fixtures or pretend to know future results. It organizes the 27 supplied selections into a reusable weekend prediction system. Future versions can add live fixtures, team form, injuries and an automated prediction model.</p></section>
 
-      <footer><b>PC24hrs Sports</b><span>Football prediction dashboard</span><span>•</span><span>Analysis & entertainment only. No result is guaranteed.</span></footer>
+      <footer><b>Football Predictor</b><span>Independent football prediction dashboard</span><span>•</span><span>Analysis & entertainment only. No result is guaranteed.</span></footer>
     </main>
   );
 }
